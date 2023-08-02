@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+        <h1>Together Through The Years</h1>
+            <div class="songItemContainer">
+            <div class="songItem">
+                <img src="cover1.avif" alt="1">
+                <span class="songName">Perfect</span>
+                <span class="songlistplay"><span class="timestamp">02:34<i id="0" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover2.jpeg" alt="1">
+                <span class="songName">Follow The Sun</span>
+                <span class="songlistplay"><span class="timestamp">03:27<i id="1" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover3.jpeg" alt="1">
+                <span class="songName">Charmed</span>
+                <span class="songlistplay"><span class="timestamp">02:12<i id="2" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover4.avif" alt="1">
+                <span class="songName">Drifting Away</span>
+                <span class="songlistplay"><span class="timestamp">04:07<i id="3" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover5.webp" alt="1">
+                <span class="songName">Moon Light</span>
+                <span class="songlistplay"><span class="timestamp">03:48<i id="4" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover6.webp" alt="1">
+                <span class="songName">Dream Potion</span>
+                <span class="songlistplay"><span class="timestamp">02:57<i id="5" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="cover7.jpeg" alt="1">
+                <span class="songName">This is For You</span>
+                <span class="songlistplay"><span class="timestamp">04:11<i id="6" class="songItemPlay fa-sharp  fa-regular fa-circle-play fa-play-circle"></i></span></span>
+            </div>
+           
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons"> 
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-sharp fa-3x fa-regular fa-circle-play fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="Nt6v.gif" width="45px" id="gif"><span id="masterSongName">Perfect</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/669068912e.js" crossorigin="anonymous"></script>
+</body>
+</html>
